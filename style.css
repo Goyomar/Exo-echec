@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    /* border: 1px solid black;    */
+
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin:auto;
+    background-color: aqua;
+    max-width: 1024px;
+}
+
+main{
+    display:grid;
+    grid-template-columns: repeat(8, 128px);
+    grid-template-rows: repeat(8, 128px);
+}
+
+.noir{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.blanc{
+    background-color: white;
+    color:black;
+    text-align: center;
+}
